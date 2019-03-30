@@ -66,3 +66,20 @@ yaourt -R nome = remover pacotes do repo AUR
 yaourt -Rsn nome = remover pacotes + dependências do repo AUR
 yaourt -Syu –devel –aur = sincronizar a base de dados e atualiza pacotes
 
+## Endereços de DNS
+
+A Level 3 é uma empresa gigantesca que fornece serviços de conectividade para milhares de outras empresas ao redor do mundo. Aqui no Brasil, por exemplo, a GVTa utiliza para conectar seus clientes ao mundo. Ela cuida da infraestrutura do Google Public DNS, mas tem seu próprio serviço. Você pode usar uma combinação dos seguintes endereços:
+
+```
+    Servidor principal primário: 209.244.0.3;
+    Servidor principal secundário: 209.244.0.4;
+    Servidor alternativo: 4.2.2.1;
+    Servidor alternativo: 4.2.2.2;
+    Servidor alternativo: 4.2.2.3;
+    Servidor alternativo: 4.2.2.4;
+    Servidor alternativo: 4.2.2.5;
+    Servidor alternativo: 4.2.2.6.
+```
+
+Todos eles respondem a partir dos Estados Unidos.
+
