@@ -8,7 +8,7 @@
 
 + Reduzindo tamanho de arquivos PDF: gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/screen -dNOPAUSE -dQUIET -dBATCH -sOutputFile=resultado.pdf original.pdf
 
-+ xtraindo páginas de um arquivo PDF: gs -sDEVICE=pdfwrite -dNOPAUSE -dBATCH -dSAFER -dFirstPage=1 -dLastPage=1 -sOutputFile=title.pdf paper_JSCS.pdf
++ Extraindo páginas de um arquivo PDF: gs -sDEVICE=pdfwrite -dNOPAUSE -dBATCH -dSAFER -dFirstPage=1 -dLastPage=1 -sOutputFile=title.pdf paper_JSCS.pdf
 
 + Medindo velocidade da internet no terminal: speedtest-cli ou speedtest-cli --share
 
