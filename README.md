@@ -20,6 +20,17 @@
 
 + Convertendo no formato escolhido: youtube-dl -f 22 link_do_video
 
+### Impressão via Terminal:
+
+lpq: Ver fila de impressão.
+lprm -: Limpa toda a fila de impressão de uma só vez.
+lpstat -p -d: Conhecer o nome da impressora.
+lp -d nomedaimpressora /endereço/do/documento: Imprindo por outra impressora que não seja padão.
+lp -n 2 documento.txt: Imprimir duas cópias.
+lp -P 1,3 documento.txt: Imprimir páginas 1 e 3 do documento.
+lp -P 1-3 documento.txt: Imprimir das páginas 1 a 3 do documento.
+lp -d npdoc -o sides=two-sided-long-edge documento.txt: Imprimindo em ambos os lados.
+lp -d npdoc -o sides=two-sided-long-edge media=letter documento.txt: Imprimindo em ambos os lados no formato carta.
 
 ### Usando o pacman:
 
