@@ -1,24 +1,24 @@
 # Comandos de Linux úteis
 
-+ Instalando o LaTeX: sudo pacman -S texlive-bibtexextra texlive-core texlive-fontsextra texlive-humanities texlive-langextra texlive-latexextra texlive-pictures texlive-publishers texlive-science texstudio
++ Instalando o LaTeX: `sudo pacman -S texlive-bibtexextra texlive-core texlive-fontsextra texlive-humanities texlive-langextra texlive-latexextra texlive-pictures texlive-publishers texlive-science texstudio`
 
-+ Convertendo uma imagem para um tamanho fixo: convert example.png -resize 200×100 example.png  
++ Convertendo uma imagem para um tamanho fixo: `convert example.png -resize 200×100 example.png`  
 
-+ Adicionando chave não oficial: gpg --recv-keys
++ Adicionando chave não oficial: `gpg --recv-keys`
 
-+ Reduzindo tamanho de arquivos PDF: gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/screen -dNOPAUSE -dQUIET -dBATCH -sOutputFile=resultado.pdf original.pdf
++ Reduzindo tamanho de arquivos PDF: `gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/screen -dNOPAUSE -dQUIET -dBATCH -sOutputFile=resultado.pdf original.pdf`
 
-+ Extraindo páginas de um arquivo PDF: gs -sDEVICE=pdfwrite -dNOPAUSE -dBATCH -dSAFER -dFirstPage=1 -dLastPage=1 -sOutputFile=title.pdf paper_JSCS.pdf
++ Extraindo páginas de um arquivo PDF: `gs -sDEVICE=pdfwrite -dNOPAUSE -dBATCH -dSAFER -dFirstPage=1 -dLastPage=1 -sOutputFile=title.pdf paper_JSCS.pdf`
 
-+ Medindo velocidade da internet no terminal: speedtest-cli ou speedtest-cli --share
++ Medindo velocidade da internet no terminal: s`peedtest-cli ou speedtest-cli --share` 
 
-+ Pesquisando no recursivamente em arquivos PDF's: pdfgrep -HiR 'Gauss' /home/pedro/Dropbox/UFPB/
++ Pesquisando no recursivamente em arquivos PDF's: `pdfgrep -HiR 'Gauss' /home/pedro/Dropbox/UFPB/`
 
 ### Baixando vídeos do youtube
 
-+ Verificando os formatos: youtube-dl -F link_do_video
++ Verificando os formatos: `youtube-dl -F link_do_video`
 
-+ Convertendo no formato escolhido: youtube-dl -f 22 link_do_video
++ Convertendo no formato escolhido: `youtube-dl -f 22 link_do_video`
 
 ### Impressão via Terminal:
 
