@@ -34,20 +34,20 @@
 
 ### Usando o pacman:
 
-+ sudo pacman -Sy = sincroniza os repositórios.
-+ sudo pacman -Su = procura por atualização.
-+ sudo pacman -Syu = sincroniza os repositórios/procura por atualização.
-+ sudo pacman -Syy = sincroniza os repositórios do Manjaro Linux.
-+ sudo pacman -Syyu = sincronização total/procura por atualização.
-+ sudo pacman -S pacote = instala um pacote.
-+ sudo pacman -R pacote = remove um pacote.
-+ sudo pacman -Rs pacote = remove o pacote junto com as dependências não usadas por outros pacotes.
-+ sudo pacman -Rsn pacote = remove o pacote junto com as dependências não usadas por outros pacotes e junto com os arquivos de configuração.
-+ sudo pacman -Ss pacote = procura por um pacote.
-+ sudo pacman -Sw pacote = apenas baixa o pacote e não o instala.
-+ sudo pacman -Si pacote = mostra informações de um pacote não instalado.
-+ sudo pacman -Qi pacote = mostra informações do pacote já instalado.
-+ sudo pacman -Se pacote = instala apenas as dependências.
++ `sudo pacman -Sy` = sincroniza os repositórios.
++ `sudo pacman -Su` = procura por atualização.
++ `sudo pacman -Syu` = sincroniza os repositórios/procura por atualização.
++ `sudo pacman -Syy` = sincroniza os repositórios do Manjaro Linux.
++ `sudo pacman -Syyu` = sincronização total/procura por atualização.
++ `sudo pacman -S pacote` = instala um pacote.
++ `sudo pacman -R pacote` = remove um pacote.
++ `sudo pacman -Rs pacote` = remove o pacote junto com as dependências não usadas por outros pacotes.
++ `sudo pacman -Rsn pacote` = remove o pacote junto com as dependências não usadas por outros pacotes e junto com os arquivos de configuração.
++ `sudo pacman -Ss pacote` = procura por um pacote.
++ `sudo pacman -Sw pacote` = apenas baixa o pacote e não o instala.
++ `sudo pacman -Si pacote` = mostra informações de um pacote não instalado.
++ `sudo pacman -Qi pacote` = mostra informações do pacote já instalado.
++ `sudo pacman -Se pacote` = instala apenas as dependências.
 + sudo pacman -Ql pacote = mostra todos os arquivos pertencentes ao pacote.
 + sudo pacman -Qu = mostra os pacotes que serão atualizados.
 + sudo pacman -Q = lista todos os pacotes instalados.
