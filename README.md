@@ -74,10 +74,10 @@
 `yaourt -Syua –devel` = sincronizar a base de dados
 `yaourt -Syyuua` = atualizar o repo AUR
 `yaourt -Ss nome` = pesquisar no repo AUR
-yaourt -S nome = instalar pacotes do repo AUR
-yaourt -R nome = remover pacotes do repo AUR
-yaourt -Rsn nome = remover pacotes + dependências do repo AUR
-yaourt -Syu –devel –aur = sincronizar a base de dados e atualiza pacotes
+`yaourt -S nome` = instalar pacotes do repo AUR
+`yaourt -R nome` = remover pacotes do repo AUR
+`yaourt -Rsn nome` = remover pacotes + dependências do repo AUR
+`yaourt -Syu –devel –aur` = sincronizar a base de dados e atualiza pacotes
 
 ## Endereços de DNS
 
