@@ -27,6 +27,8 @@ Inicialmente devemos instalar o **warsaw-bin** que encontra-se nos repositórios
 
 + Convertendo no formato escolhido: `youtube-dl -f 22 link_do_video`
 
++ Convertendo para o formato mp3: `youtube-dl --extract-audio --audio-format mp3 url`
+
 ### Impressão via Terminal:
 
 + `lpq`: Ver fila de impressão.
