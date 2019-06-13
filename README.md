@@ -16,6 +16,8 @@
 
 + Aumentando o áudio acima de 100%: `pulseaudio-ctl up 10`. Isso amplifica 10% em cima do volume máximo. Use `down` para baixar.
 
++ Unindo arquivos PDFs: qpdf --empty --pages *.pdf -- out.pdf
+
 ### Configurando warsaw para acesso aos bancos:
 
 Inicialmente devemos instalar o **warsaw-bin** que encontra-se nos repositórios comunitários fazendo`yaourt -S warsaw-bin --noconfirm`. Depois, devemos configurar o serviço para que seja inicializado com a inicialização do sistema: `systemctl enable warsaw.service` e `systemctl start warsaw.service`.
