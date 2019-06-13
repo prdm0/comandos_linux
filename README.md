@@ -6,7 +6,7 @@
 
 + Adicionando chave não oficial: `gpg --recv-keys`
 
-+ Reduzindo tamanho de arquivos PDF: `gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/screen -dNOPAUSE -dQUIET -dBATCH -sOutputFile=resultado.pdf original.pdf`
++ Reduzindo tamanho de arquivos PDF: `gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/prepress -dNOPAUSE -dQUIET -dBATCH -sOutputFile=resultado.pdf original.pdf`
 
 + Extraindo páginas de um arquivo PDF: `gs -sDEVICE=pdfwrite -dNOPAUSE -dBATCH -dSAFER -dFirstPage=1 -dLastPage=1 -sOutputFile=title.pdf paper_JSCS.pdf`
 
