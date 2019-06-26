@@ -12,7 +12,7 @@
 
 + Medindo velocidade da internet no terminal: s`peedtest-cli ou speedtest-cli --share` 
 
-+ Pesquisando no recursivamente em arquivos PDF's: `pdfgrep -HiR 'Gauss' /home/pedro/Dropbox/UFPB/`
++ Pesquisando recursivamente em arquivos PDF's: `pdfgrep -HiR 'Gauss' /home/pedro/Dropbox/UFPB/`
 
 + Aumentando o áudio acima de 100%: `pulseaudio-ctl up 10`. Isso amplifica 10% em cima do volume máximo. Use `down` para baixar.
 
