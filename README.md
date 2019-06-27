@@ -16,7 +16,7 @@
 
 + Aumentando o áudio acima de 100%: `pulseaudio-ctl up 10`. Isso amplifica 10% em cima do volume máximo. Use `down` para baixar.
 
-+ Unindo arquivos PDFs: qpdf --empty --pages *.pdf -- out.pdf
++ Unindo arquivos PDFs: `qpdf --empty --pages *.pdf -- out.pdf`
 
 ### Configurando warsaw para acesso aos bancos:
 
