@@ -79,7 +79,7 @@ Inicialmente devemos instalar o **warsaw-bin** que encontra-se nos repositórios
 + `sudo pacman -Rscn` = desinstala pacotes e suas dependencias e seus registros, tudo.
 + `sudo pacman -S pacote –noconfirm` = Instala o pacote sem precisar confirmar com “yes/no ,S/N”…
 + `sudo pacman -Syu –ignoregroup pacote1 , pacote2…` = sincroniza os repositórios/procura por atualização e ignora os grupos dos pacotes solicitados
-`sudo pacman-mirrors -g` = rankeia as mirros de acordo com velocidades.
++ `sudo pacman-mirrors -g` = rankeia as mirros de acordo com velocidades.
 `yaourt -Syua –devel` = sincronizar a base de dados
 `yaourt -Syyuua` = atualizar o repo AUR
 `yaourt -Ss nome` = pesquisar no repo AUR
