@@ -10,7 +10,7 @@
 
 + Extraindo páginas de um arquivo PDF: `gs -sDEVICE=pdfwrite -dNOPAUSE -dBATCH -dSAFER -dFirstPage=1 -dLastPage=1 -sOutputFile=title.pdf paper_JSCS.pdf`
 
-+ Medindo velocidade da internet no terminal: s`peedtest-cli ou speedtest-cli --share` 
++ Medindo velocidade da internet no terminal: `speedtest-cli ou speedtest-cli --share` 
 
 + Pesquisando recursivamente em arquivos PDF's: `pdfgrep -HiR 'Gauss' /home/pedro/Dropbox/UFPB/`
 
