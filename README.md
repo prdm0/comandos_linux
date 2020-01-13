@@ -20,6 +20,26 @@
 
 + Atualizando as mirroslist com as mais rápidas: `sudo pacman-mirrors --fasttrack && sudo pacman -Syyu`
 
+### Configurando o touchpad do notebook:
+
+Inicialmente devemos instalar a biblioteca **libinput-gestures** fazendo:
+
+```
+sudo pacman -S libinput-gestures
+```
+
+Depois, no diretório `$HOME/.config` criar o arquivo **libinput-gestures.conf**. O conteúdo desse arquivo deve ser:
+
+```
+gesture pinch out	xdotool key super+s
+gesture pinch in	xdotool key super+s
+gesture swipe down 3 xdotool key super+Down  
+gesture swipe right 3 xdotool key super+Right  
+gesture swipe left 3 xdotool key super+Left  
+gesture swipe up 3 xdotool key super+Up
+gesture swipe down 4 xdotool key super+h
+```
+
 ### Configurando warsaw para acesso aos bancos:
 
 Inicialmente devemos instalar o **warsaw-bin** que encontra-se nos repositórios comunitários fazendo`yaourt -S warsaw-bin --noconfirm`. Depois, devemos configurar o serviço para que seja inicializado com a inicialização do sistema: `systemctl enable warsaw.service` e `systemctl start warsaw.service`.
