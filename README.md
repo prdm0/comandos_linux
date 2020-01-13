@@ -18,6 +18,8 @@
 
 + Unindo arquivos PDFs: `qpdf --empty --pages *.pdf -- out.pdf`
 
++ Atualizando as mirroslist com as mais rápidas: `sudo pacman-mirrors --fasttrack && sudo pacman -Syyu`
+
 ### Configurando warsaw para acesso aos bancos:
 
 Inicialmente devemos instalar o **warsaw-bin** que encontra-se nos repositórios comunitários fazendo`yaourt -S warsaw-bin --noconfirm`. Depois, devemos configurar o serviço para que seja inicializado com a inicialização do sistema: `systemctl enable warsaw.service` e `systemctl start warsaw.service`.
