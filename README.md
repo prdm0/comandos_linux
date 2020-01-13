@@ -39,6 +39,13 @@ gesture swipe left 3 xdotool key super+Left
 gesture swipe up 3 xdotool key super+Up
 gesture swipe down 4 xdotool key super+h
 ```
+Comandos de configuração:
+
+```
+libinput-gestures-setup stop
+libinput-gestures-setup autostart
+libinput-gestures-setup start
+```
 
 ### Configurando warsaw para acesso aos bancos:
 
