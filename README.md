@@ -40,6 +40,8 @@ gesture swipe left 3 xdotool key super+Left
 gesture swipe up 3 xdotool key super+Up
 gesture swipe down 4 xdotool key super+h
 gesture swipe up 4 xdotool key super+Tab
+gesture swipe right 4 xdotool key ctrl+Tab
+gesture swipe left 4 xdotool key ctrl+Shift+Tab
 ```
 Comandos de configuração:
 
