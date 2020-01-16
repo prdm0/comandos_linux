@@ -31,13 +31,15 @@ sudo pacman -S libinput-gestures
 Depois, no diretório `$HOME/.config` criar o arquivo **libinput-gestures.conf**. O conteúdo desse arquivo deve ser:
 
 ```
-gesture pinch out	xdotool key super+s
-gesture pinch in	xdotool key super+s
+gesture pinch out 2 xdotool key ctrl+plus
+gesture pinch in 2 xdotool key ctrl+minus
+gesture pinch in 3 xdotool key alt+F4
 gesture swipe down 3 xdotool key super+Down  
 gesture swipe right 3 xdotool key super+Right  
 gesture swipe left 3 xdotool key super+Left  
 gesture swipe up 3 xdotool key super+Up
 gesture swipe down 4 xdotool key super+h
+gesture swipe up 4 xdotool key super+Tab
 ```
 Comandos de configuração:
 
