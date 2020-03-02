@@ -28,7 +28,7 @@ Isso poderá ser feito utilizando o comando `htop`.
 
 `yay -S gotop-bin --noconfirm`
 
-Basta rodar correr no terminal `gotop`.
+Basta correr no terminal `gotop`.
 
 ### Configurando o touchpad do notebook:
 
