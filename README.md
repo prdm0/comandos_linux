@@ -20,6 +20,16 @@
 
 + Atualizando as mirroslist com as mais rápidas: `sudo pacman-mirrors --fasttrack && sudo pacman -Syyu`
 
+### Monitorar processos
+
+Isso poderá ser feito utilizando o comando `htop`.
+
+### Monitorar gráfico do sistema via terminal
+
+`yay -S gotop-bin --noconfirm`
+
+Basta rodar correr no terminal `gotop`.
+
 ### Configurando o touchpad do notebook:
 
 Inicialmente devemos instalar a biblioteca **libinput-gestures** fazendo:
