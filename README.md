@@ -30,6 +30,20 @@ Isso poderá ser feito utilizando o comando `htop`.
 
 Basta correr no terminal `gotop`.
 
+### Formatando pendrive em FAT 32
+
+Use o comando `fdisk -l` para identificar o diretório do dispositivo USB:
+
+```
+sudo fdisk -l
+```
+
+Use o comando `mkfs.vfat` para formatar o pendrive:
+
+```
+sudo mkfs.vfat -F 32 -n 'nome_dado' /dev/sdb
+```
+
 ### Configurando o touchpad do notebook:
 
 Inicialmente devemos instalar a biblioteca **libinput-gestures** fazendo:
