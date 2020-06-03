@@ -2,6 +2,8 @@
 
 + Instalação inicial pós-intalação do Manjaro: `sudo pacman-mirrors --geoip && sudo pacman -Syyuu --noconfirm && sudo pacman -S texlive-bibtexextra texlive-core texlive-fontsextra texlive-humanities texlive-langextra texlive-latexextra texlive-pictures texlive-publishers texlive-science texstudio obs-studio tcl tk gcc-fortran make cmake r yay guake vim vlc libinput-gestures screenfetch xournalpp`
 
++ Colocando fones para funcionar no gnome: `yay -S pulseaudio-bluetooth-a2dp-gdm-fix --noconfirm`
+
 + Instalando o LaTeX: `sudo pacman -S texlive-bibtexextra texlive-core texlive-fontsextra texlive-humanities texlive-langextra texlive-latexextra texlive-pictures texlive-publishers texlive-science texstudio`
 
 + Convertendo uma imagem para um tamanho fixo: `convert example.png -resize 200×100 example.png`  
