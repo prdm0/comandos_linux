@@ -169,3 +169,7 @@ A Level 3 é uma empresa gigantesca que fornece serviços de conectividade para 
 
 Todos eles respondem a partir dos Estados Unidos.
 
+## Efeitos em imagens:
+
+https://www8.lunapic.com/editor/
+
