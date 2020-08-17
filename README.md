@@ -24,6 +24,27 @@
 
 + Atualizando as mirroslist com as mais rápidas: `sudo pacman-mirrors --fasttrack && sudo pacman -Syyu`
 
+### Configurando OBS Studo (Plugin obs-v4l2sink)
+
+```
+# I choose to put third-party projects here
+$ cd $HOME/ThirdParty
+# Install QT 5 development libraries
+$ sudo apt install qtbase5-dev
+# I need the OBS Studio libraries
+$ git clone --recursive https://github.com/obsproject/obs-studio.git
+# Choose the desired fork!
+$ git clone https://github.com/AndyHee/obs-v4l2sink.git
+$ cd obs-v4l2sink
+$ mkdir build && cd build
+# In my case, OBS_STUDIO_PROJECT_ROOT=$HOME/ThirdParty/obs-studio
+# In my case, OBS_V4L2SINK_PROJECT_ROOT=$HOME/ThirdParty/obs-v4l2sink
+$ cmake -DLIBOBS_INCLUDE_DIR="/home/prdm0/Downloads/obs-studio/libobs" -DCMAKE_INSTALL_PREFIX=/usr "/home/prdm0/Downloads/obs-v4l2sink/"
+$ make -j4
+$ sudo make install
+```
+Detalhes no link: https://blog.jbrains.ca/permalink/using-obs-studio-as-a-virtual-cam-on-linux
+
 ### Monitorar processos
 
 Isso poderá ser feito utilizando o comando `htop`.
