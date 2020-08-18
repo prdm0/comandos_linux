@@ -49,6 +49,12 @@ Detalhes no link: https://blog.jbrains.ca/permalink/using-obs-studio-as-a-virtua
 
 A melhor forma de fazer isso é fazendo backup do diretório `~/.config/obs-studio`. Esse diretório pode ser completamente apagado e substituído pelo backup.
 
+```
+cp -rn ~/.config/obs-studio/ .
+```
+
+Copiando o diretório `~/.config/obs-studio` no diretório de backup. Se `.`, `~/.config/obs-studio` será copiado no diretório padrão em que o bash está setado. 
+
 ### Monitorar processos
 
 Isso poderá ser feito utilizando o comando `htop`.
