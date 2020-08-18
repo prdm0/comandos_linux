@@ -45,6 +45,10 @@ $ sudo make install
 ```
 Detalhes no link: https://blog.jbrains.ca/permalink/using-obs-studio-as-a-virtual-cam-on-linux
 
+### Fazendo backup dos perfis e cenas do OBS Studio
+
+A melhor forma de fazer isso é fazendo backup do diretório `~/.config/obs-studio`. Esse diretório pode ser completamente apagado e substituído pelo backup.
+
 ### Monitorar processos
 
 Isso poderá ser feito utilizando o comando `htop`.
