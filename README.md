@@ -43,7 +43,7 @@ $ cmake -DLIBOBS_INCLUDE_DIR="/home/prdm0/Downloads/obs-studio/libobs" -DCMAKE_I
 $ make -j4
 $ sudo make install
 ```
-Detalhes no link: https://blog.jbrains.ca/permalink/using-obs-studio-as-a-virtual-cam-on-linux
+Detalhes no link: https://blog.jbrains.ca/permalink/using-obs-studio-as-a-virtual-cam-on-linux.
 
 ### Fazendo backup dos perfis e cenas do OBS Studio
 
