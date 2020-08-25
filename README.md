@@ -53,7 +53,7 @@ A melhor forma de fazer isso é fazendo backup do diretório `~/.config/obs-stud
 cp -rn ~/.config/obs-studio/ .
 ```
 
-Copiando o diretório `~/.config/obs-studio` no diretório de backup. Se `.`, `~/.config/obs-studio` será copiado no diretório padrão em que o bash está setado. 
+Copiando o diretório `~/.config/obs-studio` no diretório de backup. Colocar `.` ao final do comanda acima significa que `~/.config/obs-studio` será copiado no diretório padrão em que o bash está setado. 
 
 ### Monitorar processos
 
