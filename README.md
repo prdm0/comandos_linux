@@ -1,3 +1,20 @@
+# Ativando luz do teclado do Samsung Style S51 em UEFI
+
+The (UEFI based) kernel creates /sys/firmware/efi/efivars with the variable:
+KBDBacklitLvl-5af56f53-985c-47d5-920c-f1c531d06852
+
+The set immutable flag can be disabled with:
+chattr -i /sys/firmware/efi/efivars/KBDBacklitLvl-5af56f53-985c-47d5-920c-f1c531d06852
+
+After that the variable can be altered from 00 - 03:
+echo 0700000002 | xxd -p -r > /sys/firmware/efi/efivars/KBDBacklitLvl-5af56f53-985c-47d5-920c-f1c531d06852 (GUID dependent on the manufacturer)
+
+00 - Backlight off (always)
+01 - Backlight on DIM level (by low ambient light; detected by light sensor)
+02 - Backlight on NORM level (by low ambient light)
+03 - Backlight on FULL level (by low ambient light)
+
+
 # Comandos de Linux úteis
 
 + Instalação inicial pós-intalação do Manjaro: `sudo pacman-mirrors --geoip && sudo pacman -Syyuu --noconfirm && sudo pacman -S texlive-bibtexextra texlive-core texlive-fontsextra texlive-humanities texlive-langextra texlive-latexextra texlive-pictures texlive-publishers texlive-science texstudio obs-studio tcl tk gcc-fortran make cmake r yay guake vim vlc libinput-gestures screenfetch xournalpp`
